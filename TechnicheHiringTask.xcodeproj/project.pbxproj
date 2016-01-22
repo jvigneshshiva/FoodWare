@@ -51,7 +51,7 @@
 /* Begin PBXFileReference section */
 		2FA4DA651C5217C300EAF978 /* MenuDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuDetails.swift; sourceTree = "<group>"; };
 		2FA4DA671C5218CB00EAF978 /* ProductDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetails.swift; sourceTree = "<group>"; };
-		2FA8058F1C51F503005B3020 /* TechnicheHiringTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechnicheHiringTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FA8058F1C51F503005B3020 /* Food Ware.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food Ware.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FA805921C51F503005B3020 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FA805941C51F503005B3020 /* PartnerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnerListViewController.swift; sourceTree = "<group>"; };
 		2FA805971C51F503005B3020 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -129,7 +129,7 @@
 		2FA805901C51F503005B3020 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2FA8058F1C51F503005B3020 /* TechnicheHiringTask.app */,
+				2FA8058F1C51F503005B3020 /* Food Ware.app */,
 				2FA805A31C51F503005B3020 /* TechnicheHiringTaskTests.xctest */,
 				2FA805AE1C51F504005B3020 /* TechnicheHiringTaskUITests.xctest */,
 			);
@@ -219,7 +219,7 @@
 			);
 			name = TechnicheHiringTask;
 			productName = TechnicheHiringTask;
-			productReference = 2FA8058F1C51F503005B3020 /* TechnicheHiringTask.app */;
+			productReference = 2FA8058F1C51F503005B3020 /* Food Ware.app */;
 			productType = "com.apple.product-type.application";
 		};
 		2FA805A21C51F503005B3020 /* TechnicheHiringTaskTests */ = {
@@ -497,7 +497,7 @@
 				INFOPLIST_FILE = TechnicheHiringTask/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vignesh.TechnicheHiringTask;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Food Ware";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = TechnicheHiringTask/ObjC_Bridge_Header.h;
 			};
@@ -512,7 +512,7 @@
 				INFOPLIST_FILE = TechnicheHiringTask/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vignesh.TechnicheHiringTask;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Food Ware";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = TechnicheHiringTask/ObjC_Bridge_Header.h;
 			};
