@@ -1,0 +1,1583 @@
+ (
+  {
+  "__v" = 0;
+  "_id" = 566fb36ee23504af4bf741f5;
+  name = "Poori's";
+  partner = 566c4f14229f07d370ed7deb;
+  products =         (
+                      {
+                      "_id" = 566fc37b5d01b5375e79cc81;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fb60c5d01b5375e79caf5;
+                      description = "";
+                      image = 566fb60a5d01b5375e79caf3;
+                      name = "Aloo Gobi Paratha";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc37b5d01b5375e79cc80;
+                                                            name = "Aloo Gobi Paratha";
+                                                            price = 115;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc3865d01b5375e79cc83;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fb7cf5d01b5375e79cb2c;
+                      description = "";
+                      image = 566fb7c75d01b5375e79cb2a;
+                      name = "Chole Bhatura";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc3865d01b5375e79cc82;
+                                                            name = "Chole Bhatura";
+                                                            price = 115;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc38f5d01b5375e79cc85;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fb7f35d01b5375e79cb31;
+                      description = "";
+                      image = 566fb7eb5d01b5375e79cb2f;
+                      name = "Poori Sagu";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc38f5d01b5375e79cc84;
+                                                            name = "Poori Sagu";
+                                                            price = 100;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      }
+                      );
+  status = 1;
+  },
+  {
+  "__v" = 0;
+  "_id" = 566c5802229f07d370ed7dfb;
+  name = Parathas;
+  partner = 566c4f14229f07d370ed7deb;
+  products =         (
+                      {
+                      "_id" = 566fc3245d01b5375e79cc67;
+                      productId =                 {
+                      "__v" = 2;
+                      "_id" = 566fb4e73f7a6ca05da99766;
+                      description = "";
+                      image = 566fb400e23504af4bf74203;
+                      name = "Onion Paratha";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc3245d01b5375e79cc66;
+                                                            name = "Onion Paratha";
+                                                            price = 105;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc32b5d01b5375e79cc69;
+                      productId =                 {
+                      "__v" = 2;
+                      "_id" = 566c5987229f07d370ed7e07;
+                      description = "";
+                      image = 566c5984229f07d370ed7e05;
+                      name = "Methi Paratha";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc32b5d01b5375e79cc68;
+                                                            name = "Methi Paratha";
+                                                            price = 105;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "PER_DAY";
+                      status = 0;
+                      stock = 500;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc3315d01b5375e79cc6b;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fb5f25d01b5375e79caf0;
+                      description = "";
+                      image = 566fb5ef5d01b5375e79caee;
+                      name = "Aloo Paratha";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc3315d01b5375e79cc6a;
+                                                            name = "Aloo Paratha";
+                                                            price = 105;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc3385d01b5375e79cc6d;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fb6335d01b5375e79cafa;
+                      description = "";
+                      image = 566fb6325d01b5375e79caf8;
+                      name = "Aloo Onion Paratha";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc3385d01b5375e79cc6c;
+                                                            name = "Aloo Onion Paratha";
+                                                            price = 120;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc33f5d01b5375e79cc6f;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fb66a5d01b5375e79caff;
+                      description = "";
+                      image = 566fb6565d01b5375e79cafd;
+                      name = "Aloo Paneer Paratha";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc33f5d01b5375e79cc6e;
+                                                            name = "Aloo Paneer Paratha";
+                                                            price = 120;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc3455d01b5375e79cc71;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fb6b25d01b5375e79cb04;
+                      description = "";
+                      image = 566fb6ac5d01b5375e79cb02;
+                      name = "Aloo Muli Paratha";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc3455d01b5375e79cc70;
+                                                            name = "Aloo Muli Paratha";
+                                                            price = 120;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc34b5d01b5375e79cc73;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fb6dd5d01b5375e79cb09;
+                      description = "";
+                      image = 566fb6d65d01b5375e79cb07;
+                      name = "Gobi Paratha";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc34b5d01b5375e79cc72;
+                                                            name = "Gobi Paratha";
+                                                            price = 100;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc3525d01b5375e79cc75;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fb6fd5d01b5375e79cb0e;
+                      description = "";
+                      image = 566fb6f95d01b5375e79cb0c;
+                      name = "Muli Paratha";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc3525d01b5375e79cc74;
+                                                            name = "Muli Paratha";
+                                                            price = 105;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc3585d01b5375e79cc77;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fb72a5d01b5375e79cb13;
+                      description = "";
+                      image = 566fb7235d01b5375e79cb11;
+                      name = "Green Peas Paratha";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc3585d01b5375e79cc76;
+                                                            name = "Green Peas Paratha";
+                                                            price = 105;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc35e5d01b5375e79cc79;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fb74e5d01b5375e79cb18;
+                      description = "";
+                      image = 566fb7495d01b5375e79cb16;
+                      name = "Stuffed Paratha";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc35e5d01b5375e79cc78;
+                                                            name = "Stuffed Paratha";
+                                                            price = 120;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc3645d01b5375e79cc7b;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fb7725d01b5375e79cb1d;
+                      description = "";
+                      image = 566fb76d5d01b5375e79cb1b;
+                      name = "Cheese Paratha";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc3645d01b5375e79cc7a;
+                                                            name = "Cheese Paratha";
+                                                            price = 130;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc36a5d01b5375e79cc7d;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fb7915d01b5375e79cb22;
+                      description = "";
+                      image = 566fb78a5d01b5375e79cb20;
+                      name = "Garlic Cheese Paratha";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc36a5d01b5375e79cc7c;
+                                                            name = "Garlic Cheese Paratha";
+                                                            price = 140;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc3705d01b5375e79cc7f;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fb7af5d01b5375e79cb27;
+                      description = "";
+                      image = 566fb7a75d01b5375e79cb25;
+                      name = "Paneer Paratha";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc3705d01b5375e79cc7e;
+                                                            name = "Paneer Paratha";
+                                                            price = 130;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 56937f9ff29115605da1256c;
+                      productId =                 {
+                      "__v" = 5;
+                      "_id" = 566c58ec229f07d370ed7dfe;
+                      description = "";
+                      image = 566c5958229f07d370ed7e01;
+                      name = "Plain Paratha";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 56937f9ff29115605da1256b;
+                                                            name = "Plain Paratha";
+                                                            price = 95;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "PER_DAY";
+                      status = 0;
+                      stock = 500;
+                      type = SINGLE;
+                      };
+                      }
+                      );
+  status = 1;
+  },
+  {
+  "__v" = 0;
+  "_id" = 566fb37ee23504af4bf741f6;
+  name = Snacks;
+  partner = 566c4f14229f07d370ed7deb;
+  products =         (
+                      {
+                      "_id" = 566fc3985d01b5375e79cc87;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fb8415d01b5375e79cb36;
+                      description = "";
+                      image = 566fb83d5d01b5375e79cb34;
+                      name = "Vada Pav";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc3985d01b5375e79cc86;
+                                                            name = "Vada Pav";
+                                                            price = 70;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc3a05d01b5375e79cc89;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fb8d85d01b5375e79cb4f;
+                      description = "";
+                      image = 566fb8d15d01b5375e79cb4d;
+                      name = "Garlic Cheese Pakoda";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc3a05d01b5375e79cc88;
+                                                            name = "Garlic Cheese Pakoda";
+                                                            price = 100;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc3a75d01b5375e79cc8b;
+                      productId =                 {
+                      "__v" = 2;
+                      "_id" = 566fb8b55d01b5375e79cb4a;
+                      description = "";
+                      image = 566fb8ac5d01b5375e79cb48;
+                      name = "Chilly Cheese Pakoda";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc3a75d01b5375e79cc8a;
+                                                            name = "Chilly Cheese Pakoda";
+                                                            price = 95;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc3af5d01b5375e79cc8d;
+                      productId =                 {
+                      "__v" = 2;
+                      "_id" = 566fb8945d01b5375e79cb45;
+                      description = "";
+                      image = 566fb8905d01b5375e79cb43;
+                      name = "Bread Cheese Pakoda";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc3af5d01b5375e79cc8c;
+                                                            name = "Bread Cheese Pakoda";
+                                                            price = 95;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc3b75d01b5375e79cc8f;
+                      productId =                 {
+                      "__v" = 2;
+                      "_id" = 566fb8755d01b5375e79cb40;
+                      description = "";
+                      image = 566fb86f5d01b5375e79cb3e;
+                      name = "Bread Pakoda";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc3b75d01b5375e79cc8e;
+                                                            name = "Bread Pakoda";
+                                                            price = 65;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc3be5d01b5375e79cc91;
+                      productId =                 {
+                      "__v" = 2;
+                      "_id" = 566fb85c5d01b5375e79cb3b;
+                      description = "";
+                      image = 566fb8545d01b5375e79cb39;
+                      name = "Aloo Bonda";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc3be5d01b5375e79cc90;
+                                                            name = "Aloo Bonda";
+                                                            price = 75;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc3c65d01b5375e79cc93;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fb9435d01b5375e79cb5c;
+                      description = "";
+                      image = 566fb93f5d01b5375e79cb5a;
+                      name = "Paneer Pakoda";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc3c65d01b5375e79cc92;
+                                                            name = "Paneer Pakoda";
+                                                            price = 100;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      }
+                      );
+  status = 1;
+  },
+  {
+  "__v" = 0;
+  "_id" = 566fb398e23504af4bf741fb;
+  name = "Rice/Pulavs";
+  partner = 566c4f14229f07d370ed7deb;
+  products =         (
+                      {
+                      "_id" = 566fc5225d01b5375e79ccdf;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fbe485d01b5375e79cc1f;
+                      description = "";
+                      image = 566fbe465d01b5375e79cc1d;
+                      name = "Veg Pulao";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc5225d01b5375e79ccde;
+                                                            name = "Veg Pulao";
+                                                            price = 75;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc52c5d01b5375e79cce1;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fbe645d01b5375e79cc24;
+                      description = "";
+                      image = 566fbe615d01b5375e79cc22;
+                      name = "Tawa Pulao";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc52c5d01b5375e79cce0;
+                                                            name = "Tawa Pulao";
+                                                            price = 105;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc5355d01b5375e79cce3;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fbe7e5d01b5375e79cc29;
+                      description = "";
+                      image = 566fbe775d01b5375e79cc27;
+                      name = "Paneer Tawa Pulao";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc5355d01b5375e79cce2;
+                                                            name = "Paneer Tawa Pulao";
+                                                            price = 130;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc5415d01b5375e79cce5;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fbe995d01b5375e79cc2e;
+                      description = "";
+                      image = 566fbe925d01b5375e79cc2c;
+                      name = "Jeera Rice";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc5415d01b5375e79cce4;
+                                                            name = "Jeera Rice";
+                                                            price = 100;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc54c5d01b5375e79cce7;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fbec25d01b5375e79cc33;
+                      description = "";
+                      image = 566fbebc5d01b5375e79cc31;
+                      name = "Curd Rice";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc54c5d01b5375e79cce6;
+                                                            name = "Curd Rice";
+                                                            price = 60;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      }
+                      );
+  status = 1;
+  },
+  {
+  "__v" = 0;
+  "_id" = 566fb383e23504af4bf741f7;
+  name = "Pav Bhaji";
+  partner = 566c4f14229f07d370ed7deb;
+  products =         (
+                      {
+                      "_id" = 566fc3cf5d01b5375e79cc95;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fb96b5d01b5375e79cb61;
+                      description = "";
+                      image = 566fb9645d01b5375e79cb5f;
+                      name = "Amul Pav Bhaji";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc3cf5d01b5375e79cc94;
+                                                            name = "Amul Pav Bhaji";
+                                                            price = 100;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc3d75d01b5375e79cc97;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fb98a5d01b5375e79cb66;
+                      description = "";
+                      image = 566fb9865d01b5375e79cb64;
+                      name = "Jain Pav Bhaji";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc3d75d01b5375e79cc96;
+                                                            name = "Jain Pav Bhaji";
+                                                            price = 110;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc3e05d01b5375e79cc99;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fb9a55d01b5375e79cb6b;
+                      description = "";
+                      image = 566fb99d5d01b5375e79cb69;
+                      name = "Kadai Pav Bhaji";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc3e05d01b5375e79cc98;
+                                                            name = "Kadai Pav Bhaji";
+                                                            price = 110;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc3e85d01b5375e79cc9b;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fb9c65d01b5375e79cb70;
+                      description = "";
+                      image = 566fb9c35d01b5375e79cb6e;
+                      name = "Paneer Pav Bhaji";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc3e85d01b5375e79cc9a;
+                                                            name = "Paneer Pav Bhaji";
+                                                            price = 125;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc3f05d01b5375e79cc9d;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fb9eb5d01b5375e79cb75;
+                      description = "";
+                      image = 566fb9e85d01b5375e79cb73;
+                      name = "Cheese Pav Bhaji";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc3f05d01b5375e79cc9c;
+                                                            name = "Cheese Pav Bhaji";
+                                                            price = 125;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc3f95d01b5375e79cc9f;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fba0d5d01b5375e79cb7a;
+                      description = "";
+                      image = 566fba075d01b5375e79cb78;
+                      name = "Masala Pav";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc3f95d01b5375e79cc9e;
+                                                            name = "Masala Pav";
+                                                            price = 75;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc4015d01b5375e79cca1;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fba2c5d01b5375e79cb7f;
+                      description = "";
+                      image = 566fba285d01b5375e79cb7d;
+                      name = "Paneer Masala Pav";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc4015d01b5375e79cca0;
+                                                            name = "Paneer Masala Pav";
+                                                            price = 90;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc4095d01b5375e79cca3;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fba4e5d01b5375e79cb84;
+                      description = "";
+                      image = 566fba475d01b5375e79cb82;
+                      name = "Cheese Masala Pav";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc4095d01b5375e79cca2;
+                                                            name = "Cheese Masala Pav";
+                                                            price = 90;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc4115d01b5375e79cca5;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fba695d01b5375e79cb89;
+                      description = "";
+                      image = 566fba665d01b5375e79cb87;
+                      name = "Extra Pav";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc4115d01b5375e79cca4;
+                                                            name = "Extra Pav";
+                                                            price = 25;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc4195d01b5375e79cca7;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fba825d01b5375e79cb8e;
+                      description = "";
+                      image = 566fba7f5d01b5375e79cb8c;
+                      name = "Dahi Vada";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc4195d01b5375e79cca6;
+                                                            name = "Dahi Vada";
+                                                            price = 65;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      }
+                      );
+  status = 1;
+  },
+  {
+  "__v" = 0;
+  "_id" = 566fb3a1e23504af4bf741fc;
+  name = Combos;
+  partner = 566c4f14229f07d370ed7deb;
+  products =         (
+                      {
+                      "_id" = 566fbf035d01b5375e79cc3a;
+                      productId =                 {
+                      "__v" = 0;
+                      "_id" = 566fbf035d01b5375e79cc38;
+                      description = "2 Poori, Sagu, ulao, Curd Rice, Papad, Pickle";
+                      image = 566fbf025d01b5375e79cc36;
+                      name = "South Value Meal -1";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fbf035d01b5375e79cc39;
+                                                            name = "South Value Meal -1";
+                                                            price = 120;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fbf3d5d01b5375e79cc3f;
+                      productId =                 {
+                      "__v" = 0;
+                      "_id" = 566fbf3d5d01b5375e79cc3d;
+                      description = "1 Small Paratha, Tawa Pulao, Chole, Raita, Papad and Jamun";
+                      image = 566fbf325d01b5375e79cc3b;
+                      name = "North Value Meal - 2";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fbf3d5d01b5375e79cc3e;
+                                                            name = "North Value Meal - 2";
+                                                            price = 150;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fbf875d01b5375e79cc46;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fbf625d01b5375e79cc42;
+                      description = "2 Chapathi, Chole, Jeera rice, Dal, Butter milk and Pickle";
+                      image = 566fbf545d01b5375e79cc40;
+                      name = "Jeera Combo";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fbf875d01b5375e79cc45;
+                                                            name = "Jeera Combo";
+                                                            price = 145;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fbfb05d01b5375e79cc4b;
+                      productId =                 {
+                      "__v" = 0;
+                      "_id" = 566fbfb05d01b5375e79cc49;
+                      description = "Pulao, Curd Rice, Tawa Pulao, Raita and Pickle";
+                      image = 566fbfac5d01b5375e79cc47;
+                      name = "Rice Combo";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fbfb05d01b5375e79cc4a;
+                                                            name = "Rice Combo";
+                                                            price = 120;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      }
+                      );
+  status = 1;
+  },
+  {
+  "__v" = 0;
+  "_id" = 566fb392e23504af4bf741fa;
+  name = "South Indian";
+  partner = 566c4f14229f07d370ed7deb;
+  products =         (
+                      {
+                      "_id" = 566fc4235d01b5375e79cca9;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fbada5d01b5375e79cb98;
+                      description = "";
+                      image = 566fbad65d01b5375e79cb96;
+                      name = "Rice Idli";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc4235d01b5375e79cca8;
+                                                            name = "Rice Idli";
+                                                            price = 40;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc42b5d01b5375e79ccab;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fbaf35d01b5375e79cb9d;
+                      description = "";
+                      image = 566fbaf05d01b5375e79cb9b;
+                      name = "Rava Idli";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc42b5d01b5375e79ccaa;
+                                                            name = "Rava Idli";
+                                                            price = 50;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc4345d01b5375e79ccad;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fbb155d01b5375e79cba2;
+                      description = "";
+                      image = 566fbb115d01b5375e79cba0;
+                      name = "Kanchipuram Idli";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc4345d01b5375e79ccac;
+                                                            name = "Kanchipuram Idli";
+                                                            price = 60;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc4475d01b5375e79ccb1;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fbb525d01b5375e79cbac;
+                      description = "";
+                      image = 566fbb4e5d01b5375e79cbaa;
+                      name = Vada;
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc4475d01b5375e79ccb0;
+                                                            name = Vada;
+                                                            price = 30;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc44f5d01b5375e79ccb3;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fbb755d01b5375e79cbb1;
+                      description = "";
+                      image = 566fbb715d01b5375e79cbaf;
+                      name = "Idli Vada";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc44f5d01b5375e79ccb2;
+                                                            name = "Idli Vada";
+                                                            price = 75;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc4585d01b5375e79ccb5;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fbb905d01b5375e79cbb6;
+                      description = "";
+                      image = 566fbb8c5d01b5375e79cbb4;
+                      name = "Plain Dosa";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc4585d01b5375e79ccb4;
+                                                            name = "Plain Dosa";
+                                                            price = 65;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc4625d01b5375e79ccb7;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fbbac5d01b5375e79cbbb;
+                      description = "";
+                      image = 566fbba95d01b5375e79cbb9;
+                      name = "Masala Dosa";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc4625d01b5375e79ccb6;
+                                                            name = "Masala Dosa";
+                                                            price = 75;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc46b5d01b5375e79ccb9;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fbbc75d01b5375e79cbc0;
+                      description = "";
+                      image = 566fbbbe5d01b5375e79cbbe;
+                      name = "Set Dosa";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc46b5d01b5375e79ccb8;
+                                                            name = "Set Dosa";
+                                                            price = 75;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc4735d01b5375e79ccbb;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fbbe25d01b5375e79cbc5;
+                      description = "";
+                      image = 566fbbdf5d01b5375e79cbc3;
+                      name = "Butter Plain Dosa";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc4735d01b5375e79ccba;
+                                                            name = "Butter Plain Dosa";
+                                                            price = 85;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc47d5d01b5375e79ccbd;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fbbfc5d01b5375e79cbca;
+                      description = "";
+                      image = 566fbbf75d01b5375e79cbc8;
+                      name = "Butter Masala Dosa";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc47d5d01b5375e79ccbc;
+                                                            name = "Butter Masala Dosa";
+                                                            price = 95;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc4855d01b5375e79ccbf;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fbc195d01b5375e79cbcf;
+                      description = "";
+                      image = 566fbc165d01b5375e79cbcd;
+                      name = "Paper Plain Dosa";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc4855d01b5375e79ccbe;
+                                                            name = "Paper Plain Dosa";
+                                                            price = 100;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc49b5d01b5375e79ccc1;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fbc585d01b5375e79cbd4;
+                      description = "";
+                      image = 566fbc555d01b5375e79cbd2;
+                      name = "Paper Masala Dosa";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc49b5d01b5375e79ccc0;
+                                                            name = "Paper Masala Dosa";
+                                                            price = 115;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc4a35d01b5375e79ccc3;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fbc9d5d01b5375e79cbd9;
+                      description = "";
+                      image = 566fbc965d01b5375e79cbd7;
+                      name = "Cheese Paper Plain Dosa";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc4a35d01b5375e79ccc2;
+                                                            name = "Cheese Paper Plain Dosa";
+                                                            price = 140;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc4ab5d01b5375e79ccc5;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fbcb95d01b5375e79cbde;
+                      description = "";
+                      image = 566fbcb65d01b5375e79cbdc;
+                      name = "Cheese Paper Masala Dosa";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc4ab5d01b5375e79ccc4;
+                                                            name = "Cheese Paper Masala Dosa";
+                                                            price = 150;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc4b65d01b5375e79ccc7;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fbcd95d01b5375e79cbe3;
+                      description = "";
+                      image = 566fbcd65d01b5375e79cbe1;
+                      name = "Neer Dosa";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc4b65d01b5375e79ccc6;
+                                                            name = "Neer Dosa";
+                                                            price = 80;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc4bd5d01b5375e79ccc9;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fbcf45d01b5375e79cbe8;
+                      description = "";
+                      image = 566fbcec5d01b5375e79cbe6;
+                      name = "Open Masala Dosa";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc4bd5d01b5375e79ccc8;
+                                                            name = "Open Masala Dosa";
+                                                            price = 90;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc4c55d01b5375e79cccb;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fbd145d01b5375e79cbed;
+                      description = "";
+                      image = 566fbd115d01b5375e79cbeb;
+                      name = "Spring Dosa";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc4c55d01b5375e79ccca;
+                                                            name = "Spring Dosa";
+                                                            price = 100;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc4cf5d01b5375e79cccd;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fbd385d01b5375e79cbf2;
+                      description = "";
+                      image = 566fbd365d01b5375e79cbf0;
+                      name = "Pav Bhaji Dosa";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc4cf5d01b5375e79cccc;
+                                                            name = "Pav Bhaji Dosa";
+                                                            price = 100;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc4d75d01b5375e79cccf;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fbd545d01b5375e79cbf7;
+                      description = "";
+                      image = 566fbd4f5d01b5375e79cbf5;
+                      name = "Rava Dosa";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc4d75d01b5375e79ccce;
+                                                            name = "Rava Dosa";
+                                                            price = 80;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc4e25d01b5375e79ccd1;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fbd6f5d01b5375e79cbfc;
+                      description = "";
+                      image = 566fbd6b5d01b5375e79cbfa;
+                      name = "Rava Masala Dosa";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc4e25d01b5375e79ccd0;
+                                                            name = "Rava Masala Dosa";
+                                                            price = 90;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc4eb5d01b5375e79ccd3;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fbd925d01b5375e79cc01;
+                      description = "";
+                      image = 566fbd8d5d01b5375e79cbff;
+                      name = "Rava Onion Dosa";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc4eb5d01b5375e79ccd2;
+                                                            name = "Rava Onion Dosa";
+                                                            price = 90;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc4f35d01b5375e79ccd5;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fbdb25d01b5375e79cc06;
+                      description = "";
+                      image = 566fbdaf5d01b5375e79cc04;
+                      name = "Rava Onion Masala Dosa";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc4f35d01b5375e79ccd4;
+                                                            name = "Rava Onion Masala Dosa";
+                                                            price = 100;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc4fc5d01b5375e79ccd7;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fbdd05d01b5375e79cc0b;
+                      description = "";
+                      image = 566fbdcd5d01b5375e79cc09;
+                      name = "Tomato Uthapam";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc4fc5d01b5375e79ccd6;
+                                                            name = "Tomato Uthapam";
+                                                            price = 85;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc5065d01b5375e79ccd9;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fbde95d01b5375e79cc10;
+                      description = "";
+                      image = 566fbde65d01b5375e79cc0e;
+                      name = "Onion Uthapam";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc5065d01b5375e79ccd8;
+                                                            name = "Onion Uthapam";
+                                                            price = 85;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc5105d01b5375e79ccdb;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fbe0d5d01b5375e79cc15;
+                      description = "";
+                      image = 566fbe0a5d01b5375e79cc13;
+                      name = "Onion Tomato Uthapam";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc5105d01b5375e79ccda;
+                                                            name = "Onion Tomato Uthapam";
+                                                            price = 90;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      },
+                      {
+                      "_id" = 566fc5185d01b5375e79ccdd;
+                      productId =                 {
+                      "__v" = 1;
+                      "_id" = 566fbe275d01b5375e79cc1a;
+                      description = "";
+                      image = 566fbe245d01b5375e79cc18;
+                      name = "Ragi Dosa";
+                      productOptions =                     (
+                                                            {
+                                                            "_id" = 566fc5185d01b5375e79ccdc;
+                                                            name = "Ragi Dosa";
+                                                            price = 100;
+                                                            veg = veg;
+                                                            }
+                                                            );
+                      quantityHandling = "IN_HAND";
+                      status = 0;
+                      stock = 100;
+                      type = SINGLE;
+                      };
+                      }
+                      );
+  status = 1;
+  }
+  )
