@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2FA4DA641C52173100EAF978 /* Check.json in Resources */ = {isa = PBXBuildFile; fileRef = 2FA4DA631C52173100EAF978 /* Check.json */; };
 		2FA4DA661C5217C300EAF978 /* MenuDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA4DA651C5217C300EAF978 /* MenuDetails.swift */; };
 		2FA4DA681C5218CB00EAF978 /* ProductDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA4DA671C5218CB00EAF978 /* ProductDetails.swift */; };
 		2FA805931C51F503005B3020 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA805921C51F503005B3020 /* AppDelegate.swift */; };
@@ -29,6 +28,7 @@
 		2FA805E11C51FE14005B3020 /* PartnerDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA805E01C51FE14005B3020 /* PartnerDetails.swift */; };
 		2FA805E31C521219005B3020 /* MenuListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA805E21C521219005B3020 /* MenuListViewController.swift */; };
 		2FE213851C522BC500C21277 /* UIView+IBInspectableElements.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE213841C522BC500C21277 /* UIView+IBInspectableElements.m */; };
+		2FE213871C52413500C21277 /* ReviewCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE213861C52413500C21277 /* ReviewCartViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +49,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2FA4DA631C52173100EAF978 /* Check.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Check.json; sourceTree = "<group>"; };
 		2FA4DA651C5217C300EAF978 /* MenuDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuDetails.swift; sourceTree = "<group>"; };
 		2FA4DA671C5218CB00EAF978 /* ProductDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetails.swift; sourceTree = "<group>"; };
 		2FA8058F1C51F503005B3020 /* TechnicheHiringTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechnicheHiringTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,6 +88,7 @@
 		2FA805E21C521219005B3020 /* MenuListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuListViewController.swift; sourceTree = "<group>"; };
 		2FE213831C522BC500C21277 /* UIView+IBInspectableElements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+IBInspectableElements.h"; sourceTree = "<group>"; };
 		2FE213841C522BC500C21277 /* UIView+IBInspectableElements.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+IBInspectableElements.m"; sourceTree = "<group>"; };
+		2FE213861C52413500C21277 /* ReviewCartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewCartViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,8 +142,8 @@
 				2FA805921C51F503005B3020 /* AppDelegate.swift */,
 				2FA805941C51F503005B3020 /* PartnerListViewController.swift */,
 				2FA805E21C521219005B3020 /* MenuListViewController.swift */,
+				2FE213861C52413500C21277 /* ReviewCartViewController.swift */,
 				2FA805961C51F503005B3020 /* Main.storyboard */,
-				2FA4DA631C52173100EAF978 /* Check.json */,
 				2FA805E01C51FE14005B3020 /* PartnerDetails.swift */,
 				2FA4DA651C5217C300EAF978 /* MenuDetails.swift */,
 				2FA4DA671C5218CB00EAF978 /* ProductDetails.swift */,
@@ -270,6 +270,7 @@
 				TargetAttributes = {
 					2FA8058E1C51F503005B3020 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = X9X9JT2M8A;
 					};
 					2FA805A21C51F503005B3020 = {
 						CreatedOnToolsVersion = 7.2;
@@ -306,7 +307,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FA4DA641C52173100EAF978 /* Check.json in Resources */,
 				2FA8059D1C51F503005B3020 /* LaunchScreen.storyboard in Resources */,
 				2FA8059A1C51F503005B3020 /* Assets.xcassets in Resources */,
 				2FA805981C51F503005B3020 /* Main.storyboard in Resources */,
@@ -344,6 +344,7 @@
 				2FA4DA681C5218CB00EAF978 /* ProductDetails.swift in Sources */,
 				2FA805DA1C51FC9E005B3020 /* AFSecurityPolicy.m in Sources */,
 				2FA805D81C51FC9E005B3020 /* AFHTTPSessionManager.m in Sources */,
+				2FE213871C52413500C21277 /* ReviewCartViewController.swift in Sources */,
 				2FA4DA661C5217C300EAF978 /* MenuDetails.swift in Sources */,
 				2FA805DC1C51FC9E005B3020 /* AFURLRequestSerialization.m in Sources */,
 				2FA805E31C521219005B3020 /* MenuListViewController.swift in Sources */,
@@ -491,10 +492,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TechnicheHiringTask/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vignesh.TechnicheHiringTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = TechnicheHiringTask/ObjC_Bridge_Header.h;
 			};
 			name = Debug;
@@ -503,10 +507,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TechnicheHiringTask/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vignesh.TechnicheHiringTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = TechnicheHiringTask/ObjC_Bridge_Header.h;
 			};
 			name = Release;

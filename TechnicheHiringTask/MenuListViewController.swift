@@ -13,18 +13,26 @@ class MenuListViewController: UIViewController , UICollectionViewDataSource, UIC
     @IBOutlet weak var priceView: UIView!
     @IBOutlet weak var menuListDisplayCollectionView: UICollectionView!
     
+    @IBOutlet weak var headerLabel: UILabel!
     @IBOutlet weak var productDisplayTableView: UITableView!
     
     @IBOutlet weak var cartValueLabel: UILabel!
     var menuDetailsArray : [MenuDetails] = []
     var productDisplayList : [ProductDetails] = []
     var selectedMenu : MenuDetails!
-    
+    var partnerDetails : PartnerDetails!
     var cartDetails : [ProductDetails : Int] = [:]
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        fetchMenuListForPartner()
+        headerLabel.text = partnerDetails.partnerName
+        fetchMenuListForPartner(partnerDetails.partnerId)
+    }
+    
+    class var viewController: MenuListViewController {
+        let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let menuListViewController = storyBoard.instantiateViewControllerWithIdentifier("menuListViewController") as! MenuListViewController
+        return menuListViewController
     }
     
     func fetchedMenu(menuInfoArray : [[String : AnyObject]])
@@ -96,11 +104,11 @@ class MenuListViewController: UIViewController , UICollectionViewDataSource, UIC
     }
 
     
-    func fetchMenuListForPartner()
+    func fetchMenuListForPartner(partnerId : String)
     {
         let baseUrlString = "http://52.11.109.130:4000/getmenu"
         let manager = AFHTTPRequestOperationManager();
-        let params = [ "partnerId" : "566c4f14229f07d370ed7deb"];
+        let params = [ "partnerId" : partnerId];
         manager.responseSerializer.acceptableContentTypes = NSSet(object: "application/json") as Set<NSObject>;
         manager.POST(baseUrlString, parameters: params, success: {
             (operation : AFHTTPRequestOperation!, responseObject) in
@@ -144,7 +152,18 @@ class MenuListViewController: UIViewController , UICollectionViewDataSource, UIC
         }
     }
 
+    @IBAction func closePage(sender: AnyObject) {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
     
+    @IBAction func checkoutButtonClicked() {
+        let reviewCartVC : ReviewCartViewController = ReviewCartViewController.viewController
+        reviewCartVC.cartDetails = cartDetails
+        reviewCartVC.isDeliveryAvailable = partnerDetails.isDeliveryAvailable
+        reviewCartVC.isPickupAvailable = partnerDetails.isPickupAvailable
+        presentViewController(reviewCartVC, animated: true, completion: nil)
+
+    }
 
 }
 

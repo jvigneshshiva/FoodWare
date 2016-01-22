@@ -22,6 +22,8 @@ class PartnerDetails: NSObject {
     var partnerDescription : String
     var availablePaymentModes : [PaymentModes]
     var imageId : String
+    var isDeliveryAvailable : Bool
+    var isPickupAvailable : Bool
     
     init(partnerDetails : [String : AnyObject]) {
         partnerId = partnerDetails["_id"] as! String
@@ -40,6 +42,9 @@ class PartnerDetails: NSObject {
                 }
             }
         }
+        let deliveryOptions = partnerDetails["deliveryOptions"] as! [String : Bool]
+        isDeliveryAvailable = deliveryOptions["delivey"]!
+        isPickupAvailable = deliveryOptions["pickup"]!
         imageId = partnerDetails["image"] as! String
         super.init()
 

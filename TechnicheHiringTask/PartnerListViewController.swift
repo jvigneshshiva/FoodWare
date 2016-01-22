@@ -49,6 +49,14 @@ class PartnerListViewController: UIViewController,UITableViewDelegate,UITableVie
         return cell
     }
     
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath)
+    {
+        let partnerDetailObject = partnerDetailsArray[indexPath.row]
+        let menuListVc : MenuListViewController = MenuListViewController.viewController
+        menuListVc.partnerDetails = partnerDetailObject
+        presentViewController(menuListVc, animated: true, completion: nil)
+    }
+    
     func fetchPartnersListForPartnerCategory(partnerCategory : String, andVenueId venueId : String)
     {
         let baseUrlString = "http://52.11.109.130:4000/getpartnersforpartnercategory"
